@@ -1,0 +1,7 @@
+set trash
+set syscalls
+set nohlsearch
+set incsearch
+set ignorecase
+colorscheme zenburn_1
+
