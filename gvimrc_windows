@@ -1,11 +1,8 @@
-set shell=C:\Windows\SysNative\cmd.exe
-
 "nmap gx :execute 'silent! !start ' . shellescape(expand("<cfile>"), 1)<CR>
-vnoremap <silent> gx :<C-U>execute 'silent !start ' . shellescape(trim(getline("'<")[getpos("'<")[2]-1:getpos("'>")[2]-1]), 1)<CR>
-
+colorscheme slate
 set columns=100
-set lines=40
 set guifont=Consolas:h12
 set guioptions=!ac
-
-colorscheme desert
+set lines=40
+set shell=C:\Windows\SysNative\cmd.exe
+vnoremap <silent> gx :<C-U>execute 'silent !start ' . shellescape(trim(getline("'<")[getpos("'<")[2]-1:getpos("'>")[2]-1]), 1)<CR>
