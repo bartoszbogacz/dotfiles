@@ -1,10 +1,7 @@
+" Do not modify any timeout settings, as usually suggested in example configs.
+" This results in having to press ESC twice to exit insert mode in tmux.
 
-" Do not jump to matching parenthesis by preventing thr plugin from loading.
 let loaded_matchparen = 1
-
-" Do not modify any timeout settings, as usually suggested in example configs
-" since this results in having to press ESC twice to exit insert mode in tmux.
-
 colorscheme koehler
 filetype indent plugin on
 set autoindent
