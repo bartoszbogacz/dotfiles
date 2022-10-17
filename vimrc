@@ -1,17 +1,17 @@
 " Do not modify any timeout settings, as usually suggested in example configs.
 " This results in having to press ESC twice to exit insert mode in tmux.
 
-let loaded_matchparen = 1
 colorscheme koehler
 filetype indent plugin on
+let loaded_matchparen = 1
 set autoindent
-set autowriteall
 set backspace=indent,eol,start
 set belloff=all
 set encoding=utf8
 set expandtab
 set fileformats=unix,dos,mac
 set grepprg=grep\ -Hirn\ $*\ .
+set hidden
 set ignorecase
 set incsearch
 set lazyredraw
