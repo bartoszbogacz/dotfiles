@@ -19,7 +19,7 @@ set list
 set listchars=tab:>-,trail:~,precedes:<,extends:>,nbsp:%
 set nobackup
 set nocompatible
-set nohlsearch
+set hlsearch
 set nomodeline
 set noshowmatch
 set nostartofline
