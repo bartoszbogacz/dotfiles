@@ -38,5 +38,5 @@ set sidescroll=20
 set smartcase
 set softtabstop=4
 set wildmenu
-set wildmode=longest:list
+set wildmode=full
 syntax on
