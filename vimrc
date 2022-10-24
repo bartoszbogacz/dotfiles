@@ -1,8 +1,11 @@
 " Do not modify any timeout settings, as usually suggested in example configs.
 " This results in having to press ESC twice to exit insert mode in tmux.
-colorscheme koehler
-filetype indent plugin on
+
 let loaded_matchparen = 1
+filetype indent plugin on
+colorscheme koehler
+syntax on
+
 set autoindent
 set backspace=indent,eol,start
 set belloff=all
@@ -39,4 +42,3 @@ set smartcase
 set softtabstop=4
 set wildmenu
 set wildmode=full
-syntax on
