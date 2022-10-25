@@ -27,6 +27,7 @@ set nomodeline
 set noshowmatch
 set nostartofline
 set noswapfile
+set nowildmenu
 set nowrap
 set nowrapscan
 set nowritebackup
@@ -40,5 +41,4 @@ set showmode
 set sidescroll=20
 set smartcase
 set softtabstop=4
-set wildmenu
-set wildmode=full
+set wildmode=list:full
