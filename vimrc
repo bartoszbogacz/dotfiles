@@ -13,7 +13,7 @@ set completeopt=menuone,preview
 set encoding=utf8
 set expandtab
 set fileformats=unix,dos,mac
-set grepprg=grep\ -Hrn\ $*\
+set grepprg=grep\ -Hrn\ $*
 set hidden
 set hlsearch
 set ignorecase
