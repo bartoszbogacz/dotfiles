@@ -41,4 +41,5 @@ set showmode
 set sidescroll=20
 set smartcase
 set softtabstop=4
+set tags=tags
 set wildmode=list:full
