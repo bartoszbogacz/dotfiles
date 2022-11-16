@@ -9,7 +9,7 @@ syntax on
 set autoindent
 set backspace=indent,eol,start
 set belloff=all
-set completeopt=menuone,preview
+set completeopt=menuone,preview,noinsert
 set encoding=utf8
 set expandtab
 set fileformats=unix,dos,mac
