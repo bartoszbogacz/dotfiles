@@ -1,5 +1,7 @@
 " Do not modify any timeout settings, as usually suggested in example configs.
-" This results in having to press ESC twice to exit insert mode in tmux.
+" This results in having to press ESC twice to exit insert mode under tmux.
+
+set nocompatible
 
 let loaded_matchparen = 1
 filetype indent plugin on
@@ -22,7 +24,6 @@ set lazyredraw
 set list
 set listchars=tab:>-,trail:~,precedes:<,extends:>,nbsp:%
 set nobackup
-set nocompatible
 set nomodeline
 set noshowmatch
 set nostartofline
