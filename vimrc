@@ -14,6 +14,7 @@ set encoding=utf8
 set expandtab
 set fileformats=unix,dos,mac
 set grepprg=grep\ -Hrn\ $*
+set hidden
 set hlsearch
 set ignorecase
 set incsearch
@@ -22,7 +23,6 @@ set list
 set listchars=tab:>-,trail:~,precedes:<,extends:>,nbsp:%
 set nobackup
 set nocompatible
-set nohidden
 set nomodeline
 set noshowmatch
 set nostartofline
