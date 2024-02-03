@@ -1,0 +1,5 @@
+git fetch -p
+git branch -v
+git branch -D ...
+git show origin/afl-master:config/imports
+git remote set-url --push origin ssh://i545846@hdbgerrit.wdf.sap.corp:29418/afl

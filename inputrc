@@ -1,0 +1,20 @@
+# https://www.gnu.org/software/bash/manual/html_node/Readline-Init-File-Syntax.html
+#set completion-ignore-case on
+#set completion-map-case on
+
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+set skip-completed-text on
+
+# https://www.gnu.org/software/bash/manual/html_node/Commands-For-Completion.html
+#TAB: menu-complete
+#"\e[Z": menu-complete-backward
+
+TAB: complete
+"\e[Z": insert-completions
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# "\e[Z" == Shift-Tab
+# "\e[A" == Arrow-Up
+# "\e[B" == Arrow-Down

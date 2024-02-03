@@ -1,0 +1,12 @@
+[user]
+	email = bartosz.bogacz@mailbox.org
+	name = Bartosz Bogacz
+
+[init]
+	defaultBranch = main
+
+[pull]
+	ff = only
+
+[core]
+	editor = 'C:\\Windows\\vim.bat' -i NONE

@@ -1,0 +1,27 @@
+https://thevaluable.dev/vim-adept/
+https://learnbyexample.github.io/vim_reference/Visual-mode.html
+
+Visual Reference: https://vimhelp.org/visual.txt.html
+Visual Mode: https://vimhelp.org/usr_04.txt.html#04.4
+Visual Block Mode: https://vimhelp.org/usr_10.txt.html#10.5
+
+
+<C-t>  # Indent complete line
+<C-d>  # De-indent complete line
+vip  # In visual mode, select inner paragraph
+c3l  # Change 3 following characters
+git ls-files | vim -
+:Scratch
+/CMakeLists.txt
+gf
+:bd
+/pattern -- Alternatively, ? or word with # (backward) and * (forward)
+n or N -- Find first instance to replace (consider direction of # or *)
+cgn -- Change next (previous) occurance of "/ register
+[n -- Move to next instace, optional, if you want to preview]
+. -- Repeat last action
+# -- Search word backward
+:%s/ -- Begin search and replace
+<Ctrl-R>/ -- Paste "/ register
+/replacement/gc -- Replace g globally and ask for c confirmation
+

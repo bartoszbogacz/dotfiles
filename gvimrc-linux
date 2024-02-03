@@ -1,0 +1,9 @@
+set columns=100
+set guifont=Inconsolata\ 11
+set guioptions=!ac
+set lines=40
+
+colorscheme slate
+
+"nmap gx :execute 'silent! !xdg-open ' . shellescape(trim(getline(".")), 1)<CR>
+vnoremap <silent> gx :<C-U>execute 'silent !xdg-open ' . shellescape(trim(getline("'<")[getpos("'<")[2]-1:getpos("'>")[2]-1]), 1)<CR>

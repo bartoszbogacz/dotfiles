@@ -1,0 +1,3 @@
+Issue: scp does not connect while ssh does `Connection closed`.
+Note: Since OpenSSH 8.8 the scp utility uses the SFTP protocol by default.
+The `-O` option must be used to use the legacy SCP protocol.

@@ -1,0 +1,9 @@
+[user]
+	email = bartosz.bogacz@mailbox.org
+	name = Bartosz Bogacz
+
+[init]
+	defaultBranch = main
+
+[pull]
+	ff = only

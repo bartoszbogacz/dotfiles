@@ -1,0 +1,13 @@
+only
+
+set findprg="sh -c 'git ls-files | grep %A'"
+set grepprg="git grep -n %A"
+set ignorecase
+set incsearch
+set nohlsearch
+set syscalls
+set trash
+
+colorscheme darkdesert
+
+nnoremap yp :!tmux set-buffer %d/%c

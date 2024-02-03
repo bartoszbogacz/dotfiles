@@ -1,0 +1,30 @@
+Windows Terminal
+================
+
+"defaults":
+{
+    "adjustIndistinguishableColors": "indexed",
+    "bellStyle": "none",
+    "colorScheme": "One Half Dark",
+    "cursorShape": "vintage",
+    "padding": "0",
+    "scrollbarState": "hidden"
+},
+
+
+PowerShell
+==========
+
+While(1) {
+    [void][System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms')
+    [System.Windows.Forms.SendKeys]::SendWait("{F15}")
+    Start-Sleep -Seconds 90
+}
+
+VSCode
+======
+
+File -> Preferences -> Settings -> Search
+
+files.autoSave: "onFocusChange"
+editor.rulers: [90]

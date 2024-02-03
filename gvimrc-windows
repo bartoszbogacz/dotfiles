@@ -1,0 +1,20 @@
+set shell=C:\Windows\SysNative\cmd.exe
+
+set columns=100
+set guifont=Consolas:h12
+set guioptions=!ac
+set lines=40
+
+colorscheme desert
+
+" https://vi.stackexchange.com/questions/25456/how-can-i-change-the-colorscheme-of-the-vim-terminal-buffer
+let g:terminal_ansi_colors = [
+    \'#282828', '#CC241D', '#98971A', '#D79921',
+    \'#458588', '#B16286', '#689D6A', '#D65D0E',
+    \'#fb4934', '#b8bb26', '#fabd2f', '#83a598',
+    \'#d3869b', '#8ec07c', '#fe8019', '#FBF1C7']
+
+highlight Terminal guibg='#282828' guifg='#ebdbb2'
+
+" nmap gx :execute 'silent! !start ' . shellescape(expand("<cfile>"), 1)<CR>
+vnoremap <silent> gx :<C-U>execute 'silent !start ' . shellescape(trim(getline("'<")[getpos("'<")[2]-1:getpos("'>")[2]-1]), 1)<CR>
